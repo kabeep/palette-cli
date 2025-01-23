@@ -1,0 +1,77 @@
+{
+    "name": "@kabeep/palette-cli",
+    "description": "A Node.js Library to make your terminal input colorful.",
+    "version": "0.1.0-alpha",
+    "type": "module",
+    "main": "./dist/cli.js",
+    "types": "./dist/cli.d.ts",
+    "files": [
+        "dist"
+    ],
+    "bin": {
+        "palette": "./dist/cli.js"
+    },
+    "scripts": {
+        "prepare": "husky",
+        "dev": "ts-node bin/cli.ts",
+        "lint": "biome check src bin test --write",
+        "lint:staged": "biome check src bin test --write --staged",
+        "lint:changed": "biome check src bin test --write --changed",
+        "lint-staged": "lint-staged",
+        "test": "vitest run",
+        "test:changed": "vitest run --changed",
+        "test:ui": "vitest --ui",
+        "test:watch": "vitest watch",
+        "test:coverage": "vitest run --coverage",
+        "build": "tsup",
+        "build:watch": "tsup --watch",
+        "build:stats": "npm run build && cloc src && size-limit dist/index.js"
+    },
+    "author": {
+        "name": "Jason Zhang",
+        "email": "zzx2067@outlook.com"
+    },
+    "homepage": "https://github.com/kabeep/palette-cli#readme",
+    "repository": "git@github.com:kabeep/palette-cli.git",
+    "bugs": "https://github.com/kabeep/palette-cli/issue",
+    "dependencies": {
+        "@kabeep/palette": "^1.0.1",
+        "clipboardy": "^4.0.0",
+        "update-notifier": "^7.3.1",
+        "yargs": "^17.7.2"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^1.9.4",
+        "@types/node": "^22.10.7",
+        "@types/update-notifier": "^6.0.8",
+        "@types/yargs": "^17.0.33",
+        "@vitest/coverage-istanbul": "^3.0.1",
+        "@vitest/ui": "^3.0.1",
+        "cloc": "^2.2.0-cloc",
+        "husky": "^9.1.7",
+        "lint-staged": "^15.4.1",
+        "size-limit": "^11.1.6",
+        "size-limit-preset-node-lib": "^0.3.0",
+        "ts-node": "^10.9.2",
+        "tsup": "^8.3.5",
+        "typescript": "^5.7.3",
+        "vitest": "^3.0.1"
+    },
+    "keywords": [
+        "color",
+        "256",
+        "ansi",
+        "terminal",
+        "console",
+        "colorful",
+        "palette",
+        "paint",
+        "clipboard",
+        "nodejs",
+        "cli"
+    ],
+    "engines": {
+        "node": ">=16.14.0"
+    },
+    "license": "MIT"
+}
