@@ -12,6 +12,11 @@ A Node.js Library to make your terminal input colorful.
 
 English | [简体中文][zh-cn-url]
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/fbc01d73-7934-4d01-9e4e-9f11f0737819" />
+  <img width="814" alt="Help Info" src="https://github.com/user-attachments/assets/996184c8-a083-4df4-aa23-25e9cb4a47b7" />
+</picture>
+
 </div>
 
 ## 📦 Installation
@@ -59,6 +64,11 @@ Examples:
   palette string -c red             Copies styled string to the clipboard
 ```
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/7aa3b654-3550-423b-a844-83a6f61d3ea5" />
+  <img width="814" alt="Help Info" src="https://github.com/user-attachments/assets/74f042fe-658c-47ec-ad76-1c1d3c90c4d9" />
+</picture>
+
 ```bash
 palette tone -h
 ```
@@ -77,6 +87,11 @@ Examples:
   palette tone                Show color blocks only
   palette tone --show-number  Show color blocks with color numbering
 ```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/59bafd00-eee3-45d7-9a0f-34835514e952" />
+  <img width="814" alt="Help Info" src="https://github.com/user-attachments/assets/294bf8d7-b88e-4129-bd3f-ada74c9fd40b" />
+</picture>
 
 ```bash
 palette swatch -h
@@ -101,6 +116,19 @@ Examples:
   palette swatch 255 255 255  Show the rgb(255, 255, 255) swatch
 ```
 
+## 🔗 Related
+
+- [palette][palette-url] - 🎨 The fastest Node.js library to set terminal text colours & styles with hex, rgb and
+  tree-shaking.
+
+## 🤝 Contribution
+
+Contributions via Pull Requests or [Issues][issues-url] are welcome.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE][license-url] file for details.
+
 
 [node-image]: https://img.shields.io/node/v/%40kabeep%2Fpalette-cli?color=lightseagreen
 [node-url]: https://nodejs.org/
@@ -120,6 +148,6 @@ Examples:
 [en-us-url]: README.md
 [zh-cn-url]: README.zh-CN.md
 
-[forex-url]: https://github.com/kabeep/forex
+[palette-url]: https://github.com/kabeep/palette
 
 [issues-url]: https://github.com/kabeep/palette-cli/issues

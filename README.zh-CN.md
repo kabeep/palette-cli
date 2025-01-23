@@ -12,6 +12,11 @@
 
 [English][en-us-url] | 简体中文
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/fbc01d73-7934-4d01-9e4e-9f11f0737819" />
+  <img width="814" alt="Help Info" src="https://github.com/user-attachments/assets/996184c8-a083-4df4-aa23-25e9cb4a47b7" />
+</picture>
+
 </div>
 
 ## 📦 安装
@@ -59,6 +64,11 @@ palette <命令> [选项]
   palette string -c red             将样式字符串复制到剪贴板
 ```
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/7aa3b654-3550-423b-a844-83a6f61d3ea5" />
+  <img width="814" alt="Help Info" src="https://github.com/user-attachments/assets/74f042fe-658c-47ec-ad76-1c1d3c90c4d9" />
+</picture>
+
 ```bash
 palette tone -h
 ```
@@ -77,6 +87,11 @@ palette tone
   palette tone                仅显示色块
   palette tone --show-number  显示带有颜色编号的色块
 ```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/59bafd00-eee3-45d7-9a0f-34835514e952" />
+  <img width="814" alt="Help Info" src="https://github.com/user-attachments/assets/294bf8d7-b88e-4129-bd3f-ada74c9fd40b" />
+</picture>
 
 ```bash
 palette swatch -h
@@ -101,6 +116,18 @@ Examples:
   palette swatch 255 255 255  显示 rgb(255, 255, 255) 的色卡
 ```
 
+## 🔗 关联库
+
+- [palette][palette-url] - 🎨 最快的 Node.js 库, 支持 Hex、RGB 和 tree-shaking 设置终端文本的颜色和样式。
+
+## 🤝 贡献
+
+欢迎通过 Pull Requests 或 [Issues][issues-url] 来贡献你的想法和代码。
+
+## 📄 许可
+
+本项目采用 MIT 许可证。详情请见 [LICENSE][license-url] 文件。
+
 
 [node-image]: https://img.shields.io/node/v/%40kabeep%2Fpalette-cli?color=lightseagreen
 [node-url]: https://nodejs.org/
@@ -120,6 +147,6 @@ Examples:
 [en-us-url]: README.md
 [zh-cn-url]: README.zh-CN.md
 
-[forex-url]: https://github.com/kabeep/forex
+[palette-url]: https://github.com/kabeep/palette
 
 [issues-url]: https://github.com/kabeep/palette-cli/issues
