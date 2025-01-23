@@ -1,7 +1,7 @@
 {
     "name": "@kabeep/palette-cli",
     "description": "A Node.js Library to make your terminal input colorful.",
-    "version": "0.1.0-alpha",
+    "version": "0.1.0",
     "type": "module",
     "main": "./dist/cli.js",
     "types": "./dist/cli.d.ts",
