@@ -49,7 +49,7 @@
         "@vitest/ui": "^3.0.1",
         "cloc": "^2.2.0-cloc",
         "husky": "^9.1.7",
-        "lint-staged": "^15.4.1",
+        "lint-staged": "^16.2.5",
         "size-limit": "^11.1.6",
         "size-limit-preset-node-lib": "^0.3.0",
         "ts-node": "^10.9.2",
